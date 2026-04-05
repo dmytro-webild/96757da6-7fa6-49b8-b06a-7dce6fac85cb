@@ -29,14 +29,10 @@ export default function LandingPage() {
   <div id="nav" data-section="nav">
       <NavbarLayoutFloatingOverlay
       navItems={[
-        {
-          name: "Home",          id: "hero"},
-        {
-          name: "Menu",          id: "menu"},
-        {
-          name: "Reviews",          id: "reviews"},
-        {
-          name: "Contact",          id: "contact"},
+        { name: "Home", id: "hero"},
+        { name: "Menu", id: "menu"},
+        { name: "Reviews", id: "reviews"},
+        { name: "Contact", id: "contact"},
       ]}
       brandName="Hamburgasme"
     />
@@ -44,61 +40,32 @@ export default function LandingPage() {
 
   <div id="hero" data-section="hero">
       <HeroBillboardTestimonial
-      background={{
-        variant: "plain"}}
+      background={{ variant: "plain" }}
       title="Hamburgasme 🍔🔥"
       description="أفضل burgers في Ariana! Buns pur beurre, viande fraîche, et un goût unique."
       testimonials={[
-        {
-          name: "Ahmed K.",          handle: "@ahmedk",          testimonial: "Burger bnina barcha 🔥 n3awed nji kol jem3a",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-burger-ingredients_23-2148235086.jpg",          imageAlt: "gourmet burger close up appetizing"},
-        {
-          name: "Sarra M.",          handle: "@sarram",          testimonial: "Service rapide w qualité top 💯",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg",          imageAlt: "gourmet premium burger studio shot"},
-        {
-          name: "Fares B.",          handle: "@faresb",          testimonial: "A7sen burger fi Ariana 🍔🔥",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/fancy-cuisine-with-yummy-hamburger_23-2148374860.jpg",          imageAlt: "mushroom swiss burger top down view"},
-        {
-          name: "Amira H.",          handle: "@amirah",          testimonial: "Frites w sauces haja o5ra 😍",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/tasty-healthy-burgers-with-chicken-breast_1220-7109.jpg",          imageAlt: "grilled chicken burger fresh lettuce"},
-        {
-          name: "Karim J.",          handle: "@karimj",          testimonial: "Top quality and amazing taste!",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-delicious-burger-with-chicken-onions-rocket-served-with-fried-potatoes_181624-56472.jpg",          imageAlt: "classic beef burger simple delicious"},
+        { name: "Ahmed K.", handle: "@ahmedk", testimonial: "Burger bnina barcha 🔥 n3awed nji kol jem3a", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/top-view-burger-ingredients_23-2148235086.jpg", imageAlt: "gourmet burger close up appetizing" },
+        { name: "Sarra M.", handle: "@sarram", testimonial: "Service rapide w qualité top 💯", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg", imageAlt: "gourmet premium burger studio shot" },
+        { name: "Fares B.", handle: "@faresb", testimonial: "A7sen burger fi Ariana 🍔🔥", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/fancy-cuisine-with-yummy-hamburger_23-2148374860.jpg", imageAlt: "mushroom swiss burger top down view" },
+        { name: "Amira H.", handle: "@amirah", testimonial: "Frites w sauces haja o5ra 😍", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/tasty-healthy-burgers-with-chicken-breast_1220-7109.jpg", imageAlt: "grilled chicken burger fresh lettuce" },
+        { name: "Karim J.", handle: "@karimj", testimonial: "Top quality and amazing taste!", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-delicious-burger-with-chicken-onions-rocket-served-with-fried-potatoes_181624-56472.jpg", imageAlt: "classic beef burger simple delicious" }
       ]}
-      buttons={[
-        {
-          text: "اطلب توّا 🍔",          href: "tel:21013464"},
-      ]}
+      buttons={[{ text: "اطلب توّا 🍔", href: "tel:21013464" }]}
       imageSrc="http://img.b2bpic.net/free-photo/top-view-burger-ingredients_23-2148235086.jpg"
       imageAlt="Hamburgasme signature burger"
       avatars={[
-        {
-          src: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg",          alt: "Customer 1"},
-        {
-          src: "http://img.b2bpic.net/free-photo/fancy-cuisine-with-yummy-hamburger_23-2148374860.jpg",          alt: "Customer 2"},
-        {
-          src: "http://img.b2bpic.net/free-photo/tasty-healthy-burgers-with-chicken-breast_1220-7109.jpg",          alt: "Customer 3"},
-        {
-          src: "http://img.b2bpic.net/free-photo/vertical-shot-delicious-burger-with-chicken-onions-rocket-served-with-fried-potatoes_181624-56472.jpg",          alt: "Customer 4"},
-        {
-          src: "http://img.b2bpic.net/free-photo/front-view-delicious-meat-hamburger-with-red-tomatoes-dark-background_179666-19341.jpg",          alt: "Customer 5"},
+        { src: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg", alt: "Customer 1" },
+        { src: "http://img.b2bpic.net/free-photo/fancy-cuisine-with-yummy-hamburger_23-2148374860.jpg", alt: "Customer 2" },
+        { src: "http://img.b2bpic.net/free-photo/tasty-healthy-burgers-with-chicken-breast_1220-7109.jpg", alt: "Customer 3" },
+        { src: "http://img.b2bpic.net/free-photo/vertical-shot-delicious-burger-with-chicken-onions-rocket-served-with-fried-potatoes_181624-56472.jpg", alt: "Customer 4" },
+        { src: "http://img.b2bpic.net/free-photo/front-view-delicious-meat-hamburger-with-red-tomatoes-dark-background_179666-19341.jpg", alt: "Customer 5" }
       ]}
       marqueeItems={[
-        {
-          type: "text-icon",          text: "Fresh Beef",          icon: Beef,
-        },
-        {
-          type: "text-icon",          text: "Pur Beurre Buns",          icon: Award,
-        },
-        {
-          type: "text-icon",          text: "Fast Delivery",          icon: Car,
-        },
-        {
-          type: "text-icon",          text: "Ariana Best",          icon: Star,
-        },
-        {
-          type: "text-icon",          text: "Secret Sauce",          icon: Flame,
-        },
+        { type: "text-icon", text: "Fresh Beef", icon: Beef },
+        { type: "text-icon", text: "Pur Beurre Buns", icon: Award },
+        { type: "text-icon", text: "Fast Delivery", icon: Car },
+        { type: "text-icon", text: "Ariana Best", icon: Star },
+        { type: "text-icon", text: "Secret Sauce", icon: Flame }
       ]}
     />
   </div>
@@ -110,18 +77,12 @@ export default function LandingPage() {
       gridVariant="three-columns-all-equal-width"
       useInvertedBackground={true}
       products={[
-        {
-          id: "p1",          name: "Hamburgasme",          price: "27.000 TND",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg"},
-        {
-          id: "p2",          name: "Mushroom Burger",          price: "23.500 TND",          imageSrc: "http://img.b2bpic.net/free-photo/fancy-cuisine-with-yummy-hamburger_23-2148374860.jpg"},
-        {
-          id: "p3",          name: "The White House",          price: "24.500 TND",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg"},
-        {
-          id: "p4",          name: "Formidable Chicken",          price: "24.500 TND",          imageSrc: "http://img.b2bpic.net/free-photo/tasty-healthy-burgers-with-chicken-breast_1220-7109.jpg"},
-        {
-          id: "p5",          name: "Classic Burger",          price: "19.000 TND",          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-delicious-burger-with-chicken-onions-rocket-served-with-fried-potatoes_181624-56472.jpg"},
-        {
-          id: "p6",          name: "Lucifer Burger",          price: "20.000 TND",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-meat-hamburger-with-red-tomatoes-dark-background_179666-19341.jpg"},
+        { id: "p1", name: "Hamburgasme", price: "27.000 TND", imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg" },
+        { id: "p2", name: "Mushroom Burger", price: "23.500 TND", imageSrc: "http://img.b2bpic.net/free-photo/fancy-cuisine-with-yummy-hamburger_23-2148374860.jpg" },
+        { id: "p3", name: "The White House", price: "24.500 TND", imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg" },
+        { id: "p4", name: "Formidable Chicken", price: "24.500 TND", imageSrc: "http://img.b2bpic.net/free-photo/tasty-healthy-burgers-with-chicken-breast_1220-7109.jpg" },
+        { id: "p5", name: "Classic Burger", price: "19.000 TND", imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-delicious-burger-with-chicken-onions-rocket-served-with-fried-potatoes_181624-56472.jpg" },
+        { id: "p6", name: "Lucifer Burger", price: "20.000 TND", imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-meat-hamburger-with-red-tomatoes-dark-background_179666-19341.jpg" }
       ]}
       title="Our Menu"
       description="Delicious choices for every craving."
@@ -134,21 +95,11 @@ export default function LandingPage() {
       animationType="slide-up"
       useInvertedBackground={false}
       testimonials={[
-        {
-          id: "t1",          name: "Ahmed K.",          handle: "@ahmedk",          testimonial: "Burger bnina barcha 🔥 n3awed nji kol jem3a",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-meat-hamburger-with-red-tomatoes-dark-background_179666-19341.jpg",          imageAlt: "spicy burger chili pepper topping"},
-        {
-          id: "t2",          name: "Sarra M.",          handle: "@sarram",          testimonial: "Service rapide w qualité top 💯",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/us-labor-day-celebration-with-burgers_23-2150347439.jpg",          imageAlt: "kids burger meal nuggets fries"},
-        {
-          id: "t3",          name: "Fares B.",          handle: "@faresb",          testimonial: "A7sen burger fi Ariana 🍔🔥",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/japanese-street-food-restaurant-with-bright-sign_23-2149410168.jpg",          imageAlt: "cozy burger restaurant entrance front view"},
-        {
-          id: "t4",          name: "Amira H.",          handle: "@amirah",          testimonial: "Frites w sauces haja o5ra 😍",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-burger-ingredients_23-2148235086.jpg",          imageAlt: "gourmet burger close up appetizing"},
-        {
-          id: "t5",          name: "Karim J.",          handle: "@karimj",          testimonial: "Amazing burgers, consistent quality every time.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg",          imageAlt: "gourmet premium burger studio shot"},
+        { id: "t1", name: "Ahmed K.", handle: "@ahmedk", testimonial: "Burger bnina barcha 🔥 n3awed nji kol jem3a", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-meat-hamburger-with-red-tomatoes-dark-background_179666-19341.jpg", imageAlt: "spicy burger chili pepper topping" },
+        { id: "t2", name: "Sarra M.", handle: "@sarram", testimonial: "Service rapide w qualité top 💯", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/us-labor-day-celebration-with-burgers_23-2150347439.jpg", imageAlt: "kids burger meal nuggets fries" },
+        { id: "t3", name: "Fares B.", handle: "@faresb", testimonial: "A7sen burger fi Ariana 🍔🔥", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/japanese-street-food-restaurant-with-bright-sign_23-2149410168.jpg", imageAlt: "cozy burger restaurant entrance front view" },
+        { id: "t4", name: "Amira H.", handle: "@amirah", testimonial: "Frites w sauces haja o5ra 😍", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/top-view-burger-ingredients_23-2148235086.jpg", imageAlt: "gourmet burger close up appetizing" },
+        { id: "t5", name: "Karim J.", handle: "@karimj", testimonial: "Amazing burgers, consistent quality every time.", rating: 5, imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg", imageAlt: "gourmet premium burger studio shot" }
       ]}
       showRating={true}
       title="آراء الحرفاء"
@@ -164,9 +115,9 @@ export default function LandingPage() {
       title="Our Impact"
       description="Numbers that speak for themselves."
       metrics={[
-        { label: "Happy Customers", value: "5000+" },
-        { label: "Burgers Served", value: "15000+" },
-        { label: "Reviews", value: "1200+" }
+        { value: "5000+" },
+        { value: "15000+" },
+        { value: "1200+" }
       ]}
     />
   </div>
@@ -177,16 +128,10 @@ export default function LandingPage() {
       title="Get in Touch"
       description="Visit us at Av. Mustapha Hjeij, Ariana or give us a call."
       inputs={[
-        {
-          name: "name",          type: "text",          placeholder: "Your Name",          required: true,
-        },
-        {
-          name: "phone",          type: "tel",          placeholder: "Phone Number",          required: true,
-        },
+        { name: "name", type: "text", placeholder: "Your Name", required: true },
+        { name: "phone", type: "tel", placeholder: "Phone Number", required: true }
       ]}
-      textarea={{
-        name: "message",        placeholder: "Your message",        rows: 4,
-      }}
+      textarea={{ name: "message", placeholder: "Your message", rows: 4 }}
       imageSrc="http://img.b2bpic.net/free-photo/japanese-street-food-restaurant-with-bright-sign_23-2149410168.jpg"
     />
   </div>
