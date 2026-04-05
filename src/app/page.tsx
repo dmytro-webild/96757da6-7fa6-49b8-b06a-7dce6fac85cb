@@ -115,9 +115,9 @@ export default function LandingPage() {
       title="Our Impact"
       description="Numbers that speak for themselves."
       metrics={[
-        { value: "5000+" },
-        { value: "15000+" },
-        { value: "1200+" }
+        { id: "m1", title: "Happy Customers", items: "5000+" },
+        { id: "m2", title: "Burgers Served", items: "15000+" },
+        { id: "m3", title: "Years Experience", items: "5+" }
       ]}
     />
   </div>
