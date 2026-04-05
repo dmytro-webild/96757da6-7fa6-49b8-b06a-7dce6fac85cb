@@ -63,7 +63,7 @@ export default function LandingPage() {
           handle: "@ahmedk",
           testimonial: "Burger bnina barcha 🔥 n3awed nji kol jem3a",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-burger-ingredients_23-2148235086.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-burger-ingredients_23-2148235086.jpg?_wi=1",
           imageAlt: "gourmet burger close up appetizing",
         },
         {
@@ -71,7 +71,7 @@ export default function LandingPage() {
           handle: "@sarram",
           testimonial: "Service rapide w qualité top 💯",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg?_wi=1",
           imageAlt: "gourmet premium burger studio shot",
         },
         {
@@ -79,7 +79,7 @@ export default function LandingPage() {
           handle: "@faresb",
           testimonial: "A7sen burger fi Ariana 🍔🔥",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/fancy-cuisine-with-yummy-hamburger_23-2148374860.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/fancy-cuisine-with-yummy-hamburger_23-2148374860.jpg?_wi=1",
           imageAlt: "mushroom swiss burger top down view",
         },
         {
@@ -87,7 +87,7 @@ export default function LandingPage() {
           handle: "@amirah",
           testimonial: "Frites w sauces haja o5ra 😍",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/tasty-healthy-burgers-with-chicken-breast_1220-7109.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tasty-healthy-burgers-with-chicken-breast_1220-7109.jpg?_wi=1",
           imageAlt: "grilled chicken burger fresh lettuce",
         },
         {
@@ -95,7 +95,7 @@ export default function LandingPage() {
           handle: "@karimj",
           testimonial: "Top quality and amazing taste!",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-delicious-burger-with-chicken-onions-rocket-served-with-fried-potatoes_181624-56472.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-delicious-burger-with-chicken-onions-rocket-served-with-fried-potatoes_181624-56472.jpg?_wi=1",
           imageAlt: "classic beef burger simple delicious",
         },
       ]}
@@ -105,7 +105,7 @@ export default function LandingPage() {
           href: "tel:21013464",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/top-view-burger-ingredients_23-2148235086.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/top-view-burger-ingredients_23-2148235086.jpg?_wi=2"
       imageAlt="Hamburgasme signature burger"
       avatars={[
         {
@@ -170,37 +170,37 @@ export default function LandingPage() {
           id: "p1",
           name: "Hamburgasme",
           price: "27.000 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg?_wi=2",
         },
         {
           id: "p2",
           name: "Mushroom Burger",
           price: "23.500 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/fancy-cuisine-with-yummy-hamburger_23-2148374860.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/fancy-cuisine-with-yummy-hamburger_23-2148374860.jpg?_wi=2",
         },
         {
           id: "p3",
           name: "The White House",
           price: "24.500 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg?_wi=3",
         },
         {
           id: "p4",
           name: "Formidable Chicken",
           price: "24.500 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/tasty-healthy-burgers-with-chicken-breast_1220-7109.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/tasty-healthy-burgers-with-chicken-breast_1220-7109.jpg?_wi=2",
         },
         {
           id: "p5",
           name: "Classic Burger",
           price: "19.000 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-delicious-burger-with-chicken-onions-rocket-served-with-fried-potatoes_181624-56472.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-delicious-burger-with-chicken-onions-rocket-served-with-fried-potatoes_181624-56472.jpg?_wi=2",
         },
         {
           id: "p6",
           name: "Lucifer Burger",
           price: "20.000 TND",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-meat-hamburger-with-red-tomatoes-dark-background_179666-19341.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-meat-hamburger-with-red-tomatoes-dark-background_179666-19341.jpg?_wi=1",
         },
       ]}
       title="Our Menu"
@@ -219,7 +219,7 @@ export default function LandingPage() {
           handle: "@ahmedk",
           testimonial: "Burger bnina barcha 🔥 n3awed nji kol jem3a",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-meat-hamburger-with-red-tomatoes-dark-background_179666-19341.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-delicious-meat-hamburger-with-red-tomatoes-dark-background_179666-19341.jpg?_wi=2",
           imageAlt: "spicy burger chili pepper topping",
         },
         {
@@ -237,7 +237,7 @@ export default function LandingPage() {
           handle: "@faresb",
           testimonial: "A7sen burger fi Ariana 🍔🔥",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/japanese-street-food-restaurant-with-bright-sign_23-2149410168.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/japanese-street-food-restaurant-with-bright-sign_23-2149410168.jpg?_wi=1",
           imageAlt: "cozy burger restaurant entrance front view",
         },
         {
@@ -246,7 +246,7 @@ export default function LandingPage() {
           handle: "@amirah",
           testimonial: "Frites w sauces haja o5ra 😍",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-burger-ingredients_23-2148235086.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-burger-ingredients_23-2148235086.jpg?_wi=3",
           imageAlt: "gourmet burger close up appetizing",
         },
         {
@@ -255,7 +255,7 @@ export default function LandingPage() {
           handle: "@karimj",
           testimonial: "Amazing burgers, consistent quality every time.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/front-view-burger-red-tasty-fried-inside-plate-light-wall_140725-11599.jpg?_wi=4",
           imageAlt: "gourmet premium burger studio shot",
         },
       ]}
@@ -297,7 +297,7 @@ export default function LandingPage() {
         placeholder: "Your message",
         rows: 4,
       }}
-      imageSrc="http://img.b2bpic.net/free-photo/japanese-street-food-restaurant-with-bright-sign_23-2149410168.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/japanese-street-food-restaurant-with-bright-sign_23-2149410168.jpg?_wi=2"
     />
   </div>
 
