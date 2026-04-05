@@ -5,7 +5,6 @@ import ReactLenis from "lenis/react";
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterCard from '@/components/sections/footer/FooterCard';
 import HeroBillboardTestimonial from '@/components/sections/hero/HeroBillboardTestimonial';
-import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardThirteen from '@/components/sections/testimonial/TestimonialCardThirteen';
@@ -104,21 +103,6 @@ export default function LandingPage() {
       showRating={true}
       title="آراء الحرفاء"
       description="What our customers say about their experience at Hamburgasme."
-    />
-  </div>
-
-  <div id="metric" data-section="metric">
-      <MetricCardSeven
-      animationType="slide-up"
-      textboxLayout="default"
-      useInvertedBackground={false}
-      title="Our Impact"
-      description="Numbers that speak for themselves."
-      metrics={[
-        { id: "m1", title: "Happy Customers", items: "5000+" },
-        { id: "m2", title: "Burgers Served", items: "15000+" },
-        { id: "m3", title: "Years Experience", items: "5+" }
-      ]}
     />
   </div>
 
